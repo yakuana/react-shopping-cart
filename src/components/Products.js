@@ -11,7 +11,7 @@ const Products = () => {
 	// destructured object 
 	const { products, addItem } = useContext(ProductContext);
 
-	console.log("products in Products.js ", products)
+	// console.log("products in Products.js ", products)
 
 	return (
 		<div className="products-container">
