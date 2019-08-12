@@ -55,19 +55,19 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 **STEP 2 - Providing data with ProductContext**
 
-- Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
+- [x] Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
 
-- Wrap all of your components/routes in `App.js` inside of `ProductContext.Provider` component.
+- [x] Wrap all of your components/routes in `App.js` inside of `ProductContext.Provider` component.
 
-- Next pass a value prop to your `Provider`.
+- [x] Next pass a value prop to your `Provider`.
 
-- In the value prop we'll pass in the products state, and an addItem function that will allow us to add books to the cart.
+- [x] In the value prop we'll pass in the products state, and an addItem function that will allow us to add books to the cart.
 
 ```js
 <ProductContext.Provider value={{ products, addItem }}>
 ```
 
-- Now that we're providing our products state and addItem function we can refactor our products route to no longer use render props.
+- [x] Now that we're providing our products state and addItem function we can refactor our products route to no longer use render props.
 
 **Before**
 
@@ -85,7 +85,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 <Route exact path="/" component={Products} />
 ```
 
-- After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly!
+- [x] After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly!
 
 **STEP 3 - Consuming data with ProductContext**
 
